@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>Curso Práctico de Git y Github Desde Cero</header>
+    <main>
+        <article>
+            <h2>Que es GIT ?</h2>
+            <p>Es un sistema de control de versiones, es decir, es un programa que controla/administra las distintas versiones de un programa.
+            Tus programas van a ir cambiando a medida que vas evolucionando, y para controlar esos distintos cambios, la opción es utilizar sistemas de control de versiones.
+            El mas popular es GIT</p>
+            <p>Es Opensource y fue creado por Linus Torvalds el mismo creador del kernel de Linux, lo creo porque necesitaba una manera de controlar los cambios que hacia en el codigo del kernel de Linux.</p>
+            <p>Ya ea un programa grande, o uno pequeño, GIT te va ayudar a tener un listado de los cambios que vas haciendo. Ademas vas a poder contribuir con multiples desarrolladores con un codigo que esta en cualquier parte del mundo. O tambien podes trabajar con tu propios proyectos personales de una manera mas profesional. </p>
+            <p>GIT es un Sistema de Control Distribuido: Es decir,vas a poder trabajar con un repositorio de codigo, y multiples desarrolladores van a poder alterar ese codigo, pero todos los desarrolladores tienen una copia local de ese codigo, por lo que siempre vas a tener los ultimos cambios que estan afectando al codigo principal.</p> 
+            <p>Vas a poder navegar entre cualquier punto de las versiones de tus programas y aplicar o reverir cambios segun desees.</p>
+            <p>GIT puede trabajar tanto con repositorios(computador donde se administra el codigo) locales como remotos.</p>
+        </article>
+        <article>
+            <h2>Conceptos Básicos</h2>
+            <p>GIT es una herramienta que interactua directamente con el sistema operativo. Por lo que se maneja bastante a travez de la consola. Especificamente GIT te instala una especie de terminal, un bash que seria como una consola, pero con mejores funcionalidades, que trae todos los conceptos de Unix(Linux/Mac).
+            Te permite tomar una clase de foto(Snapshots), lo qeu permite luego volver a ver ese Snapshots y editarlo de ser necesario.
+            </p>
+            <h3>Estados</h3>
+            <p>En GIT hay tres estados.</p>
+            <ul>
+                <li>Working Directory: Es donde vamos a trabajar con nuestros archivos.</li>
+                <li>Staging Area: Es donde vamos agregar todos los archivos que vamos a preparar para el guardado.</li>
+                <li>Repositiry: En donde guardamos los archivos una vez que nos decidimos a guardar el cambio.</li>
+            </ul>
+            <h3>Comandos Básicos</h3>
+            <ul>
+                <li>git init >>> Le decimos al sistema operativo que vamos empezar a utilizar GIT. Le decimos a GIT que vamos a crear un proyecto nuevo, o que vamos a reutilizar un proyecto.</li>
+                <li>git add &lt;file&gt; >>> Pasamos los archivos del Working /directory al Staging Area.</li>
+                <li>git status >>> Para ver en que estados estan nuestros archivos, si esta en el Working Directory, o en el Staging Area, etc.</li>
+                <li>git commit >>> Para pasarlo del Staging Area al Repository. Esto es solo para crear un primer Snapshots, o una primera foto de tu versión del codigo.</li>
+                <li>git push >>> Para subirlo a un repositorio remoto, ej: cuando ya tenes tu codigo trabajado, lo vas a subir a un servidor, para que pueda ser accedido por los desarrolladores que tienen permiso para modificar el codigo.</li>
+                <li>git pull >>> En caso que estes trabajando con otros desarrolladores, te traen lo cambios que han echo otros desarrolladores.</li>
+                <li>git clone >>> Hace una copia del servidor central donde esta el codigo, a tu computador para que empieces a trabajar.</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Primer Contacto</h2>
+            <ul>
+                <li>git commit: Para crear un primer punto de control de uestro código.</li>
+                <li>git config --global user.email "email": Para configurar el email de este usuario.</li>
+                <li>git config --global user.name "name": Para configurar el nombre de usuario.</li>
+            </ul>
+        </article>
+
+
+    </main>
+    <footer></footer>
+</body>
+</html>
